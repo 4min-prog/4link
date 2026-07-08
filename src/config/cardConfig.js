@@ -1,6 +1,6 @@
 export const cardConfig = {
-  username: '4MY',
-  name: '4MY | Web Design',
+  username: '4MIN',
+  name: '4MIN | Web Design',
   title: 'Web Developer | SEO | Digital Solutions',
   bio: 'Modern web siteleri, dijital çözümler ve kullanıcı odaklı deneyimler geliştiriyorum.',
 
