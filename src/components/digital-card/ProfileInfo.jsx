@@ -11,8 +11,11 @@ export default function ProfileInfo() {
       <p className="text-accent text-xs font-medium mb-1.5">
         {cardConfig.title}
       </p>
-      <p className="text-white/45 text-xs leading-relaxed mb-3">
+      <p className="text-white/45 text-xs leading-relaxed mb-2">
         {cardConfig.bio}
+      </p>
+      <p className="text-primary/70 text-[11px] font-medium mb-3 tracking-wide">
+        Modern Web Experiences
       </p>
 
       <div className="flex items-center justify-center lg:justify-start gap-1.5 text-white/40 text-[11px]">

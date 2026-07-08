@@ -17,7 +17,7 @@ export default function QRCodeSection() {
         </div>
       </div>
       <p className="text-[10px] text-white/30 mt-1.5 tracking-widest uppercase">
-        Profili Paylas
+        Telefon kamerasiyla tara
       </p>
     </div>
   )
