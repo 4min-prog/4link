@@ -13,7 +13,7 @@ export const cardConfig = {
   },
   email: 'eminelomerr@gmail.com',
   location: 'Gaziantep, Türkiye',
-  website: 'https://4min.netlify.app',
+  website: 'https://4-link.vercel.app',
 
   socialLinks: [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/4min/', icon: 'Briefcase' },
@@ -31,6 +31,6 @@ export const cardConfig = {
     { label: 'GitHub', icon: 'CodeXml', href: 'https://github.com/4min-prog', variant: 'outline' },
   ],
 
-  profileUrl: 'https://4min.netlify.app',
+  profileUrl: 'https://4-link.vercel.app',
   footerText: 'Building modern digital experiences.',
 }
