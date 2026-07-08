@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #008081;
+  --color-accent: #f4e1c1;
+  --color-dark: #05050A;
+  --color-card: rgba(255, 255, 255, 0.04);
+  --font-sans: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-dark);
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: rgba(0, 128, 129, 0.3);
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  .input {
+    width: 100%;
+    padding: 0.625rem 1rem;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .input:focus {
+    border-color: rgba(0, 128, 129, 0.5);
+  }
+
+  .btn-primary {
+    padding: 0.625rem 1.5rem;
+    background-color: #008081;
+    color: #ffffff;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: rgba(0, 128, 129, 0.9);
+  }
+
+  select.input {
+    appearance: auto;
+  }
+}
