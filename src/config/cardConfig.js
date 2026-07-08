@@ -5,7 +5,7 @@ export const cardConfig = {
   bio: 'Modern web siteleri, dijital çözümler ve kullanıcı odaklı deneyimler geliştiriyorum.',
 
   coverImage: '/og-image.jpg',
-  profileImage: '/my brand.png',
+  profileImage: '/my.jpg',
 
   phone: {
     display: '+90 507 214 03 64',
